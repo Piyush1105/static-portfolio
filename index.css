@@ -1,0 +1,64 @@
+* {
+  font-family: "Monoton", cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+/* Nav CSS start here */
+nav {
+  background-color: #333;
+  color: #fff;
+  float: left;
+  height: 100vh;
+  width: 20%;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+nav h2 {
+  background-color: rgb(45, 73, 158);
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin-top: 150px;
+  flex-direction: column;
+}
+nav ul li {
+  width: 100%;
+  border-top: 1px solid green;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li:last-child {
+  border-bottom: 1px solid green;
+}
+
+nav ul li:hover {
+  background-color: rgb(179, 50, 18);
+  color: #fff;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* main CSS starts here */
+main {
+  background-color: red;
+  height: 100vh;
+  margin-left: 20%;
+  padding: 10px;
+}
+main section {
+  display: none;
+}
+
+.active {
+  display: block;
+  
+}
